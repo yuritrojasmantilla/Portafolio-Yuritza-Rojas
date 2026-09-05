@@ -7,11 +7,11 @@
 
 Bienvenido/a al repositorio oficial de mi portafolio web personal en formato **One-Page**. Este proyecto representa mi carta de presentación técnica, diseñada para exhibir mi perfil multidisciplinario que combina las **Geociencias** (Geología) con el **Desarrollo de Software y Análisis de Datos**.
 
-📌 **Sitio Web desplegado:** [yuritrojasmantilla.github.io/portfolio](https://yuritrojasmantilla.github.io/)
+📌 **Sitio Web desplegado:** [yuritrojasmantilla.github.io/Portafolio-Yuritza-Rojas/](https://yuritrojasmantilla.github.io/Portafolio-Yuritza-Rojas/)
 
 ---
 
-## 🎯 Objetivos del Proyecto
+## Objetivos del Proyecto
 
 - **Estructura Semántica Sólida:** Uso estricto de etiquetas HTML5 (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`) para garantizar mantenibilidad, accesibilidad (a11y) y SEO óptimo.
 - **Diseño Responsive First:** Interfaz completamente adaptativa probada en dispositivos móviles, tablets y laptops mediante CSS Grid y Flexbox.
@@ -21,7 +21,7 @@ Bienvenido/a al repositorio oficial de mi portafolio web personal en formato **O
 
 ---
 
-## 📐 Estructura de la Página (One-Page)
+## Estructura de la Página (One-Page)
 
 La arquitectura de la página está articulada en secciones intuitivas accesibles mediante el menú superior de navegación suave:
 
