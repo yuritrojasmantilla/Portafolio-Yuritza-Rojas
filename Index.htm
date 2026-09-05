@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Yuritza Juliana Rojas Mantilla - Geología, desarrollo de software y análisis de datos.">
+    <title>Yuritza Rojas | Portafolio Personal</title>
+    
+    <!-- CSS / Fonts / Icons -->
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-    <link rel="stylesheet" href="./style.css">
-    <title>Portafolio - Yuritza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
- 
 <body>
- 
-<!-----------------------------------------ENCABEZADO--------------------------------------------------------->  
+
+    <!-- CABECERA Y NAVEGACIÓN -->
     <header class="header">
         <div class="header-container">
-            <div class="header-titulo">
-                <h1>Yuritza Juliana Rojas Mantilla</h1>
-                <p>Geología y Desarrollo de Software</p>
-            </div>
-        
-            <nav class="header-nav">
+            <a href="#inicio" class="header-logo">Yuritza Rojas<span>.</span></a>
+            <nav class="header-nav" aria-label="Navegación principal">
                 <ul class="header-nav-list">
-                    <li><a class="nav-inicio" href="#inicio">Inicio</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sobre-mi">Sobre mí</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
@@ -32,286 +30,180 @@
             </nav>
         </div>
     </header>
-<!-----------------------------------------ENCABEZADO--------------------------------------------------------->  
- 
-    <main class="main">
- 
-<!---------------------------------------------INICIO--------------------------------------------------------->  
+
+    <main id="main-content">
+        <!-- SECCIÓN INICIO / HERO -->
         <section class="main-inicio" id="inicio">
             <div class="main-inicio-container">
-                <h2>¡Bienvenid@! Soy Yuritza Rojas</h2>
-                <p class="main-inicio-subtit">Geóloga y Desarrolladora de Software Junior</p>
-                <p class="main-inicio-desc">Estudio la Tierra capa por capa, y construyo software línea por línea. Creo que las mejores soluciones nacen cuando la ciencia y la tecnología se encuentran.</p>
- 
-                <div class="main-inicio-buttons">
-                    <a class="button button-1" href="#proyectos">Ver Mis Proyectos</a>
-                    <a class="button button-2" href="#contacto">Contáctame</a>
+                <span class="badge">Geociencias & Desarrollo de Software</span>
+                <h1>Yuritza Juliana Rojas Mantilla</h1>
+                <h2>Transformando datos geológicos y código en soluciones de impacto.</h2>
+                <p>Estudiante de Geología en la Universidad Industrial de Santander. Apasionada por el análisis de datos, desarrollo de herramientas interactivas y la caracterización de sistemas naturales.</p>
+                
+                <div class="main-inicio-actions">
+                    <a href="#proyectos" class="button button-primary">Ver mis proyectos <i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#contacto" class="button button-secondary">Contactar</a>
                 </div>
- 
+
                 <div class="main-inicio-stats">
-                    <div class="stat">
-                        <span class="stat-number">5+</span>
-                        <span class="stat-label">Software Geológicos</span>
+                    <div class="stat-item">
+                        <span class="stat-number">+10</span>
+                        <span class="stat-label">Proyectos & Repositorios</span>
                     </div>
-                    <div class="stat">
-                        <span class="stat-number">4+</span>
-                        <span class="stat-label">Proyectos Finalizados</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">6+</span>
-                        <span class="stat-label">Aprendizaje Continuo</span>
+                    <div class="stat-item">
+                        <span class="stat-number">UIS</span>
+                        <span class="stat-label">Universidad Industrial de Santander</span>
                     </div>
                 </div>
             </div>
         </section>
- 
-<!--------------------------------------------SOBRE MI------------------------------------------------------->  
+
+        <!-- SECCIÓN SOBRE MÍ -->
         <section class="main-about" id="sobre-mi">
-            <div class="main-about-container">
-                <h2>Donde la Tierra se encuentra con el Código</h2>
- 
+            <div class="container">
+                <h2>Sobre Mí</h2>
                 <div class="main-about-content">
-                    <div class="main-about-text-block">
-                        <p class="main-about-intro">Soy <strong>geóloga y desarrolladora de software en formación</strong>, actualmente culminando mi tesis de grado en Geología mientras aprendo a construir soluciones digitales desde cero.</p>
-                        <p class="main-about-text">Domino <strong>Python, HTML, CSS y GitHub</strong>, y trabajo con metodologías ágiles como <strong>Scrum</strong> en mis proyectos. Aún hay mucho camino por recorrer, pero cada línea de código me acerca más a mi objetivo.</p>
-                        <p class="main-about-text">Mi meta es <strong>combinar la geología y el desarrollo de software</strong>, porque creo que juntas tienen el poder de transformar la manera en que entendemos y visualizamos la Tierra.</p>
-                    </div>
- 
                     <div class="main-about-photo-wrapper">
                         <div class="main-about-photo">
-                            <img src="./Foto-Portafolio.png" alt="Foto Profesional de Yuritza Rojas">
+                            <img src="https://avatars.githubusercontent.com/u/246300304?v=4" alt="Fotografía de Yuritza Juliana Rojas Mantilla" loading="lazy" width="200" height="200">
                         </div>
                     </div>
-                </div>
- 
-                <div class="main-about-values">
-                    <h3>Mi Brújula</h3>
-                    <ul class="main-about-values-list">
-                        <li>
-                            <span class="values-icon"><i class="fa-solid fa-earth-americas"></i></span>
-                            <strong>Conexión</strong>
-                            <span class="values-desc">Uniendo la ciencia de la Tierra con el poder del software</span>
-                        </li>
-                        <li>
-                            <span class="values-icon"><i class="fa-solid fa-layer-group"></i></span>
-                            <strong>Análisis</strong>
-                            <span class="values-desc">Analizando cada problema capa por capa, como la geología me enseñó</span>
-                        </li>
-                        <li>
-                            <span class="values-icon"><i class="fa-solid fa-flask"></i></span>
-                            <strong>Precisión</strong>
-                            <span class="values-desc">Los datos importan, en el campo y en el código</span>
-                        </li>
-                        <li>
-                            <span class="values-icon"><i class="fa-solid fa-binoculars"></i></span>
-                            <strong>Curiosidad</strong>
-                            <span class="values-desc">Siempre explorando nuevas tecnologías</span>
-                        </li>
-                    </ul>
+                    <div class="main-about-text">
+                        <p>Mi trayectoria integra el análisis geoscientífico rigoroso con tecnologías de programación modernas. Me enfoco en el procesamiento de datos geológicos, modelado de sistemas de energía limpia (como hidrógeno natural) y automatización de procesos mediante bases de datos relacionales y scripts personalizados.</p>
+                        
+                        <ul class="main-about-values-list">
+                            <li><i class="fa-solid fa-check-circle"></i> <strong>Modelamiento de Datos:</strong> Diseño de esquemas relacionales e integración de bases de datos.</li>
+                            <li><i class="fa-solid fa-check-circle"></i> <strong>Rigurosidad Analítica:</strong> Enfoque metodológico aplicado a proyectos de geociencias y software.</li>
+                            <li><i class="fa-solid fa-check-circle"></i> <strong>Aprendizaje Continuo:</strong> Constantemente expandiendo stack tecnológico e investigativo.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
- 
-<!---------------------------------------------PROYECTOS------------------------------------------------------>  
+
+        <!-- SECCIÓN PROYECTOS -->
         <section class="main-projects" id="proyectos">
-            <div class="main-projects-container">
-                <h2>Mis Proyectos de Práctica</h2>
-                <p>Mi viaje en el desarrollo de software tiene nombre y apellido: <strong>PSeint, Python, GitHub, HTML</strong> y <strong>CSS</strong>. Estos proyectos cuentan esa historia, desde el primer "¡hola mundo!" hasta hoy.</p>
- 
+            <div class="container">
+                <h2>Proyectos Destacados</h2>
+                <p class="section-subtitle">Una muestra de mis repositorios y desarrollos recientes en GitHub.</p>
+
                 <div class="main-projects-grid">
-                    <article class="project">
-                        <h3>Dominio de PSeint</h3>
-                        <p class="project-description">Proyecto desarrollado como <strong>examen final</strong> en mi proceso de formación. Un sistema de gestión de stock para una tienda de comida que permite controlar entradas y salidas de productos, con alertas automáticas cuando el inventario es crítico.</p>
- 
-                        <h4>Lo que aprendí:</h4>
-                        <ul>
-                            <li>Lógica de programación con PSeint</li>
-                            <li>Condicionales para la generación de alertas automáticas</li>
-                            <li>Manejo de datos y estructuras básicas</li>
-                            <li>Pensamiento algorítmico aplicado a un problema real</li>
-                        </ul>
- 
-                        <div class="project-tech">
-                            <span>PSeint</span>
-                            <span>Lógica de programación</span>
-                        </div>
- 
-                        <div class="project-link">
-                            <a href="https://github.com/yuritrojasmantilla/Examen_PSeint.git">Ver Código</a>
+                    <!-- Proyecto 1 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <span class="project-tag">Base de Datos / MySQL</span>
+                            <h3>Geological Database Schema</h3>
+                            <p>Diseño y estructuración de esquema relacional para almacenamiento de variables de prospección geológica, utilizando motor InnoDB y relaciones complejas de claves foráneas.</p>
+                            <div class="project-tech">
+                                <span>SQL</span>
+                                <span>MySQL</span>
+                                <span>Relational DB</span>
+                            </div>
+                            <a href="https://github.com/yuritrojasmantilla" class="project-link" target="_blank" rel="noopener noreferrer">Ver en GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </article>
- 
-                    <article class="project">
-                        <h3>Conocimientos en Python</h3>
-                        <p class="project-description">Proyecto final de Python. Una aplicación de consola para gestionar las finanzas personales, permitiendo <strong>registrar, calcular, listar y generar reportes</strong> de gastos organizados por categorías y períodos de tiempo: diario, semanal, mensual y anual.</p>
- 
-                        <h4>Lo que aprendí:</h4>
-                        <ul>
-                            <li>Programación modular con múltiples archivos</li>
-                            <li>Manejo y almacenamiento de datos en formato JSON</li>
-                            <li>Uso de librerías para registrar datos en tiempo real y tabulación</li>
-                            <li>Organización de gastos por categorías y períodos</li>
-                        </ul>
- 
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>JSON</span>
-                        </div>
- 
-                        <div class="project-link">
-                            <a href="https://github.com/yuritrojasmantilla/Proyecto_Python_YuritzaJulianaRojasMantilla.git">Ver Código</a>
+
+                    <!-- Proyecto 2 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <span class="project-tag">Análisis de Datos / R</span>
+                            <h3>Geoscientific Data Analysis</h3>
+                            <p>Procesamiento estadístico y visualización de datos cartográficos y muestras de superficie utilizando RStudio y paquetes estadísticos.</p>
+                            <div class="project-tech">
+                                <span>RStudio</span>
+                                <span>R</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <a href="https://github.com/yuritrojasmantilla" class="project-link" target="_blank" rel="noopener noreferrer">Ver en GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </article>
- 
-                    <article class="project">
-                        <h3>Control de Versiones</h3>
-                        <p class="project-description">Proyecto de examen para demostrar el dominio de <strong>GitHub y control de versiones</strong>. Usando un diario de viaje como temática, practiqué el flujo completo de trabajo con Git a través de archivos Markdown con recomendaciones de destinos turísticos.</p>
- 
-                        <h4>Lo que aprendí:</h4>
-                        <ul>
-                            <li>Creación y gestión de repositorios en GitHub</li>
-                            <li>Clonación de repositorios remotos</li>
-                            <li>Fusión de ramas con merge y resolución de conflictos</li>
-                            <li>Redacción de documentación en formato Markdown</li>
-                        </ul>
- 
-                        <div class="project-tech">
-                            <span>GitHub</span>
-                            <span>Git</span>
-                            <span>Markdown</span>
+
+                    <!-- Proyecto 3 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <span class="project-tag">Desarrollo Web</span>
+                            <h3>Personal One-Page Portfolio</h3>
+                            <p>Portafolio personal responsivo construido con HTML5 semántico y CSS3 adaptativo siguiendo la metodología Git Flow para su despliegue continuo.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://github.com/yuritrojasmantilla" class="project-link" target="_blank" rel="noopener noreferrer">Ver en GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
- 
-                        <div class="project-link">
-                            <a href="https://github.com/yuritrojasmantilla/DiarioDeViaje.git">Ver Repositorio</a>
-                        </div>
-                    </article>
- 
-                    <article class="project">
-                        <h3>Creación de Páginas Web</h3>
-                        <p class="project-description">Ejercicio de maquetación donde repliqué la página principal de <strong>Google</strong> usando únicamente HTML y CSS. Analicé su estructura con las <strong>DevTools de Chrome</strong> e intenté imitar su diseño lo más fielmente posible, desde el header hasta el footer.</p>
- 
-                        <h4>Lo que aprendí:</h4>
-                        <ul>
-                            <li>Maquetación y estructuración de layouts reales</li>
-                            <li>Inspección y análisis de estilos con Chrome DevTools</li>
-                            <li>Replicación de diseños con CSS</li>
-                            <li>Buenas prácticas de nomenclatura y estructura HTML</li>
-                        </ul>
- 
-                        <div class="project-tech">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>Chrome DevTools</span>
-                        </div>
- 
-                        <div class="project-link">
-                            <a href="https://github.com/yuritrojasmantilla/PaginaWeb.git">Ver Código</a>
-                        </div>
-                    </article>
-                    
-                    <article class="project project-featured">
-                        <span class="project-badge">Destacado</span>
-                        <h3>Portafolio Personal</h3>
-                        <p class="project-description">Lo que estás viendo ahora mismo. Mi proyecto más ambicioso hasta hoy, donde <strong>HTML y CSS</strong> dejaron de ser teoría para convertirse en algo real.</p>
- 
-                        <h4>Características:</h4>
-                        <ul>
-                            <li>HTML semántico y accesible</li>
-                            <li>CSS organizado y escalable</li>
-                            <li>Diseño Responsivo</li>
-                            <li>Metodología BEM</li>
-                        </ul>
                     </article>
                 </div>
             </div>
         </section>
- 
-<!-----------------------------------------------HABILIDADES------------------------------------------------->  
+
+        <!-- SECCIÓN HABILIDADES -->
         <section class="main-skills" id="habilidades">
-            <div class="main-skills-container">
-                <h2>Mi ArcToolbox</h2>
- 
-                <h3>En Exploración:</h3>
- 
-                <div class="main-skills-list">
-                    <div class="skill">
-                        <h4>HTML5 & Semántica</h4>
-                        <div class="skill-bar">
-                            <div class="skill-bar-progress skill-bar-progress-HTML"></div>
-                        </div>
-                        <span class="skill-porcent">90%</span>
+            <div class="container">
+                <h2>Habilidades Técnicas</h2>
+                <div class="skills-wrapper">
+                    <div class="skills-group">
+                        <h3>Lenguajes y Herramientas</h3>
+                        <ul class="skills-learning-list">
+                            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                            <li><i class="fa-brands fa-java"></i> Java</li>
+                            <li><i class="fa-solid fa-code"></i> C / C++</li>
+                            <li><i class="fa-solid fa-database"></i> SQL (MySQL / InnoDB)</li>
+                            <li><i class="fa-solid fa-chart-line"></i> RStudio / R</li>
+                        </ul>
                     </div>
- 
-                    <div class="skill">
-                        <h4>CSS3 & Diseño</h4>
-                        <div class="skill-bar">
-                            <div class="skill-bar-progress skill-bar-progress-CSS"></div>
-                        </div>
-                        <span class="skill-porcent">60%</span>
+
+                    <div class="skills-group">
+                        <h3>Geociencias & Análisis</h3>
+                        <ul class="skills-learning-list">
+                            <li><i class="fa-solid fa-map-location-dot"></i> Sistemas de Información Geográfica (SIG)</li>
+                            <li><i class="fa-solid fa-vial"></i> Caracterización de Recursos Subsuperficiales</li>
+                            <li><i class="fa-solid fa-diagram-project"></i> Modelamiento de Datos Geológicos</li>
+                        </ul>
                     </div>
- 
-                    <div class="skill">
-                        <h4>Python & Librerías</h4>
-                        <div class="skill-bar">
-                            <div class="skill-bar-progress skill-bar-progress-Python"></div>
-                        </div>
-                        <span class="skill-porcent">73%</span>
-                    </div>
-                </div>
-                
-                <div class="skills-learning">
-                    <h3>En Campo:</h3>
-                    <ul class="skills-learning-list">
-                        <li>JavaScript</li>
-                        <li>Java</li>
-                        <li>C / C++</li>
-                        <li>SQL</li>
-                        <li>RStudio</li>
-                    </ul>
                 </div>
             </div>
         </section>
- 
-<!---------------------------------------------CONTACTAME----------------------------------------------------->  
+
+        <!-- SECCIÓN CONTACTO -->
         <section class="main-contact" id="contacto">
             <div class="main-contact-container">
                 <h2>Mis Coordenadas</h2>
-                <p>Si tienes un proyecto, oportunidad para crecer o simplemente quieres hablar de código, mapas o rocas, <strong>aquí estoy</strong>. Siempre dispuesta a aprender y colaborar.</p>
- 
+                <p>Si tienes un proyecto, oportunidad para crecer o simplemente quieres hablar de código, datos o geología, <strong>aquí estoy</strong>. Siempre dispuesta a aprender y colaborar.</p>
+
                 <div class="contact-method">
                     <div class="contact">
                         <h3><span><i class="fa-regular fa-envelope"></i></span> Email</h3>
                         <a href="mailto:yuritrojasmantilla@gmail.com">yuritrojasmantilla@gmail.com</a>
                     </div>
- 
+
                     <div class="contact">
                         <h3><span><i class="fa-brands fa-github"></i></span> GitHub</h3>
-                        <a href="https://github.com/yuritrojasmantilla">@yuritrojasmantilla</a>
+                        <a href="https://github.com/yuritrojasmantilla" target="_blank" rel="noopener noreferrer">@yuritrojasmantilla</a>
                     </div>
- 
+
                     <div class="contact">
                         <h3><span><i class="fa-brands fa-linkedin"></i></span> LinkedIn</h3>
-                        <a href="https://www.linkedin.com/in/yuritza-j-rojas-m-1580b4245/">/in/Yuritza-J-Rojas-M</a>
+                        <a href="https://co.linkedin.com/in/yuritza-j-rojas-m-1580b4245" target="_blank" rel="noopener noreferrer">/in/Yuritza-J-Rojas-M</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
- 
-<!------------------------------------------PIE DE PAGINA----------------------------------------------------->  
+
+    <!-- PIE DE PÁGINA -->
     <footer class="footer">
         <div class="footer-container">
-            <nav class="footer-nav">
+            <nav class="footer-nav" aria-label="Navegación del pie de página">
                 <a href="#inicio">Inicio</a>
                 <a href="#sobre-mi">Sobre mí</a>
                 <a href="#proyectos">Proyectos</a>
                 <a href="#habilidades">Habilidades</a>
                 <a href="#contacto">Contacto</a>
             </nav>
- 
+
             <p class="footer-copyr">© 2026 Yuritza Juliana Rojas Mantilla — Portafolio Personal</p>
         </div>
     </footer>
- 
+
 </body>
 </html>
